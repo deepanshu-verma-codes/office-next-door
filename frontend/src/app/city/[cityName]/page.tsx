@@ -202,6 +202,7 @@ function DashboardContent({ city }: { city: string }) {
                       style={{ paddingLeft: '44px' }}
                       value={searchCompany}
                       onChange={(e) => setSearchCompany(e.target.value)}
+                      suppressHydrationWarning
                     />
                   </div>
                 </div>

@@ -76,12 +76,14 @@ export default function CitySearch() {
             onFocus={() => setShowSuggestions(true)}
             required
             autoComplete="off"
+            suppressHydrationWarning
           />
         </div>
 
         <button
           type="submit"
           className="button-primary h-[44px] shrink-0 px-6 flex items-center gap-2"
+          suppressHydrationWarning
         >
           <Search className="h-4 w-4" />
           Find Now
